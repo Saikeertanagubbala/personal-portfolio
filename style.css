@@ -6,12 +6,6 @@ body {
     background-color: #f8f8f8;
   }
   
-  .container {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
   a {
     color: #337ab7;
     text-decoration: none;
@@ -26,12 +20,12 @@ body {
   }
   
   h1 {
-    font-size: 32px;
+    font-size: 40px;
     margin: 0;
   }
   
   p.subtitle {
-    font-size: 18px;
+    font-size: 16px;
     margin: 10px 0 0;
   }
   
@@ -50,7 +44,6 @@ body {
     font-size: 16px;
   }
   
-  /* Section Styles */
   section {
     margin: 20px 0;
   }
@@ -60,12 +53,10 @@ body {
     margin: 0;
   }
   
-  /* Article Styles */
   article {
     background-color: #fff;
     padding: 20px;
     margin-bottom: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
   
   article h3 {
@@ -74,11 +65,10 @@ body {
   }
   
   p.project-date {
-    font-size: 14px;
+    font-size: 16px;
     color: #888;
   }
   
-  /* Contact Styles */
   ul.contact-list {
     list-style: none;
     padding: 0;
@@ -93,33 +83,4 @@ body {
     color: #337ab7;
   }
   
-  /* Responsive Styles */
-  @media (max-width: 768px) {
-    header {
-      padding: 10px;
-    }
   
-    h1 {
-      font-size: 28px;
-    }
-  
-    p.subtitle {
-      font-size: 16px;
-    }
-  
-    nav ul li a {
-      font-size: 14px;
-    }
-  
-    article {
-      padding: 10px;
-    }
-  
-    article h3 {
-      font-size: 18px;
-    }
-  
-    p.project-date {
-      font-size: 12px;
-    }
-  }
