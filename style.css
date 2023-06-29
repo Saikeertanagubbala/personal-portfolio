@@ -1,77 +1,125 @@
 body {
     font-family:'Times New Roman', Times, serif;
-    line-height: 1.6;
-    background-color: #19181a;
-    color: #b19f9e;
     margin: 0;
     padding: 0;
+    color: #333;
+    background-color: #f8f8f8;
   }
   
   .container {
-    max-width: 800px;
+    max-width: 960px;
     margin: 0 auto;
     padding: 20px;
   }
   
   a {
-    color: #007bff;
+    color: #337ab7;
     text-decoration: none;
-    transition: color 0.3s ease;
   }
   
-  a:hover {
-    color: #0056b3;
-  }
-  
+  /* Header Styles */
   header {
-    background-color: #a16e83;
+    background-color: #fff;
     padding: 20px;
     text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
   
   h1 {
-    font-size: 24px;
-    margin-bottom: 10px;
+    font-size: 32px;
+    margin: 0;
   }
   
-  p {
-    font-size: 16px;
-    margin-bottom: 20px;
+  p.subtitle {
+    font-size: 18px;
+    margin: 10px 0 0;
   }
   
   nav ul {
     list-style: none;
     padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
+    margin: 20px 0;
   }
   
   nav ul li {
-    margin: 0 10px;
+    display: inline-block;
+    margin-right: 10px;
   }
   
   nav ul li a {
     font-size: 16px;
   }
   
+  /* Section Styles */
   section {
-    background-color: #cebc81;
-    padding: 20px;
-    margin-bottom: 20px;
-  }
-  
-  article {
-    margin-bottom: 20px;
+    margin: 20px 0;
   }
   
   h2 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  /* Article Styles */
+  article {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  article h3 {
     font-size: 20px;
+    margin: 0;
+  }
+  
+  p.project-date {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  /* Contact Styles */
+  ul.contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  ul.contact-list li {
     margin-bottom: 10px;
   }
   
-  ul {
-    list-style-type: none;
-    padding: 0;
+  ul.contact-list li a {
+    color: #337ab7;
   }
   
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    header {
+      padding: 10px;
+    }
+  
+    h1 {
+      font-size: 28px;
+    }
+  
+    p.subtitle {
+      font-size: 16px;
+    }
+  
+    nav ul li a {
+      font-size: 14px;
+    }
+  
+    article {
+      padding: 10px;
+    }
+  
+    article h3 {
+      font-size: 18px;
+    }
+  
+    p.project-date {
+      font-size: 12px;
+    }
+  }
