@@ -1,8 +1,8 @@
 body {
     font-family:'Times New Roman', Times, serif;
     line-height: 1.6;
-    background-color: #f7f7f7;
-    color: #333;
+    background-color: red;
+    color: blue;
     margin: 0;
     padding: 0;
   }
@@ -23,11 +23,9 @@ body {
     color: #0056b3;
   }
   
-  /* Header styles */
   header {
-    background-color: #fff;
+    background-color: pink;
     padding: 20px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     text-align: center;
   }
   
@@ -57,11 +55,9 @@ body {
     font-size: 16px;
   }
   
-  /* Section styles */
   section {
-    background-color: #fff;
+    background-color: green;
     padding: 20px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
   }
   
