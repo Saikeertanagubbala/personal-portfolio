@@ -1,83 +1,81 @@
 body {
-  font-family:'Times New Roman', Times, serif;
-  line-height: 1.6;
-  background-color: #d8c3a5;
-  color: #333;
-}
-
-header {
-  background-color: #edc7b7;
-  padding: 20px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-nav ul li a {
-  color: #575757;
-  font-size: 16px;
-  transition: color 0.3s ease;
-}
-
-nav ul li a:hover {
-  color: #007bff;
-}
-
-/* Section styles */
-section#projects {
-  max-width: 600px;
-  margin: 20px auto;
-  padding: 20px;
-  background-color: #eee2dc;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-article.project-post h3 {
-  font-size: 20px;
-  margin-bottom: 10px;
-  color: #333;
-}
-
-p.project-date {
-  font-size: 14px;
-  color: #777;
-}
-
-article.project-post a {
-  color: #007bff;
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-
-article.project-post a:hover {
-  color: #0056b3;
-}
-
-/* Button styles */
-.button {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: #fff;
-  font-size: 16px;
-  text-decoration: none;
-  border-radius: 4px;
-  transition: background-color 0.3s ease;
-}
-
-.button:hover {
-  background-color: #0056b3;
-}
-
-/* Responsive styles */
-@media (max-width: 600px) {
-  section#projects {
-    padding: 10px;
+    font-family:'Times New Roman', Times, serif;
+    line-height: 1.6;
+    background-color: #f7f7f7;
+    color: #333;
+    margin: 0;
+    padding: 0;
   }
-
-  article.project-post h3 {
-    font-size: 18px;
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
   }
-
-  p.project-date {
-    font-size: 12px;
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
   }
-}
+  
+  a:hover {
+    color: #0056b3;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    font-size: 16px;
+  }
+  
+  /* Section styles */
+  section {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  article {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
