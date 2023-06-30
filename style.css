@@ -2,8 +2,8 @@ body {
     font-family:'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
-    color: #333;
-    background-color: #f8f8f8;
+    color: #413f3d;
+    background-color: #b1a6a4;
   }
   
   a {
@@ -12,8 +12,8 @@ body {
   }
   
   header {
-    background-color: #fff;
-    padding: 10px 20px 10px 20px;
+    background-color: #d8cfd0;
+    padding: 6px 20px 6px 20px;
     text-align: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
