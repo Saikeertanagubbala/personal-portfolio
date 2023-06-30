@@ -60,12 +60,13 @@ body {
   }
   
   .about-post figure {
-    flex-basis: 40%;
+    flex-basis: 30%;
     margin-right: 20px;
+    float:left;
   }
   
   .about-post p {
-    flex-basis: 55%;
+    flex-basis: 70%;
   }
   
   h2 {
