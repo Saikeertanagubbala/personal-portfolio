@@ -13,7 +13,7 @@ body {
   
   header {
     background-color: #fef2f2;
-    padding: 6px 20px 6px 20px;
+    padding: 4px 20px 4px 20px;
     text-align: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     position: sticky;
@@ -33,7 +33,9 @@ body {
   nav ul {
     list-style: none;
     padding: 0;
+    display:flex;
     margin: 20px 0;
+    justify-content: center;
   }
   
   nav ul li {
@@ -66,7 +68,7 @@ body {
   
   p.project-date {
     font-size: 16px;
-    color: #888;
+    color: #5d5d5d;
   }
   
   ul.contact-list {
