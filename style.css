@@ -52,6 +52,16 @@ body {
     display: flex;
     flex-direction: row;
   }
+
+  .about-post figure {
+    flex-basis: 30%;
+    margin-right: 20px;
+    float: left;
+  }
+  
+  .about-post figure img {
+    width: 200px;
+  }
   
   h2 {
     font-size: 24px;
