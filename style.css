@@ -65,13 +65,17 @@ body {
     margin-right: 20px;
     float: left;
   }
-  
+
   .about-post p {
     flex-basis: 70%;
   }
+
+  .about-post p {
+    margin-left: 20px;
+  }
   
   .about-post figure img {
-    width: 200px;
+    width: 500px;
   }
   
   h2 {
