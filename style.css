@@ -1,9 +1,15 @@
 body {
-    font-family:'Times New Roman', Times, serif;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     color: #333;
     background-color: #f8f8f8;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
   }
   
   a {
@@ -11,6 +17,7 @@ body {
     text-decoration: none;
   }
   
+  /* Header Styles */
   header {
     background-color: #fff;
     padding: 20px;
@@ -19,12 +26,12 @@ body {
   }
   
   h1 {
-    font-size: 40px;
+    font-size: 32px;
     margin: 0;
   }
   
   p.subtitle {
-    font-size: 16px;
+    font-size: 18px;
     margin: 10px 0 0;
   }
   
@@ -43,6 +50,7 @@ body {
     font-size: 16px;
   }
   
+  /* Section Styles */
   section {
     margin: 20px 0;
   }
@@ -52,7 +60,9 @@ body {
     margin: 0;
   }
   
+  /* Article Styles */
   article {
+    background-color: #fff;
     padding: 20px;
     margin-bottom: 20px;
   }
@@ -63,10 +73,11 @@ body {
   }
   
   p.project-date {
-    font-size: 16px;
+    font-size: 14px;
     color: #888;
   }
   
+  /* Contact Styles */
   ul.contact-list {
     list-style: none;
     padding: 0;
@@ -81,4 +92,12 @@ body {
     color: #337ab7;
   }
   
+  /* Home Page Styles */
+  .home-content {
+    text-align: center;
+  }
+  
+  .home-post {
+    margin-bottom: 40px;
+  }
   
