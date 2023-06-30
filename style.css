@@ -50,12 +50,12 @@ body {
   section {
     margin: 100px 0;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
   }
 
   .about-post {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
   }
   
